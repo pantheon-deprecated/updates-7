@@ -10,13 +10,13 @@
         {
             "type": "package",
             "package": {
-                "name": "pantheon-systems/drops-7",
+                "name": "pantheon-updates/drops-7",
                 "type": "drupal-core",
-                "version": "7.37",
+                "version": "7.39",
                 "source": {
                     "url": "https://github.com/pantheon-systems/drops-7.git",
                     "type": "git",
-                    "reference": "master"
+                    "reference": "update-7.39"
                 },
                 "replace": {
                     "drupal/drupal": "self.version",
@@ -78,7 +78,7 @@
         "cweagans/composer-patches": "~1.0",
         "drupal/composer_vendor": "7.1.*",
 
-        "pantheon-systems/drops-7": "7.*",
+        "pantheon-updates/drops-7": "7.*",
         "drupal/admin_menu": "7.3.*",
         "drupal/devel": "7.1.*",
         "drupal/responsive_bartik": "7.1.*"
